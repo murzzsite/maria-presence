@@ -9,12 +9,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
 
 <header class="header" id="header">
   <div class="container header__inner">
-    <a href="#top" class="logo">Мария <span>PRESENCE</span></a>
+    <a href="#top" class="logo"><img src="logo.png" alt="" class="logo__mark">Мария <span>PRESENCE</span></a>
     <nav class="nav" id="nav">
       <a href="#about">Обо мне</a>
       <a href="#advantages">Подход</a>
@@ -43,9 +44,9 @@
         <a href="#services" class="btn btn--ghost">Все услуги и цены</a>
       </div>
       <div class="hero__stats">
-        <div class="hero__stat"><b data-target="20">0</b><span>клиентов в месяц</span></div>
-        <div class="hero__stat"><b data-target="5">0</b><span>в личном сопровождении</span></div>
-        <div class="hero__stat"><b>Останкино</b><span>экспертный опыт на ТВ</span></div>
+        <div class="hero__stat"><b>8+</b><span>лет опыта работы с людьми</span></div>
+        <div class="hero__stat"><b>300+</b><span>кейсов успешных трансформаций</span></div>
+        <div class="hero__stat"><b>Останкино</b><span>диплом телеведущей</span></div>
       </div>
     </div>
     <div class="hero__card reveal">
@@ -63,10 +64,16 @@
 </section>
 
 <section id="about">
-  <div class="container section__head">
-    <span class="eyebrow">Обо мне</span>
-    <h2>Мария Дмитриева</h2>
-    <p>Психолог-сексолог, специалист по проявленности. Опыт работы телеведущей и актрисы, экспертные выходы на Останкино — использую эти навыки, чтобы помогать женщинам звучать и проявляться без страха осуждения. В работе соединяю психотерапию, телесные практики и системы самопознания.</p>
+  <div class="container about__grid">
+    <div class="about__photo reveal">
+      <img src="about-photo.jpg" alt="Мария Дмитриева" onerror="this.parentElement.classList.add('about__photo--empty')">
+    </div>
+    <div>
+      <span class="eyebrow">Обо мне</span>
+      <h2>Мария Дмитриева</h2>
+      <p>Психолог-сексолог, специалист по проявленности. Второе высшее образование — телеведущая, Институт телевидения и радиовещания «Останкино», хотя на самом телевидении принципиально не работала. Была ведущим медиа-экспертом и ведущей YouTube-канала международной финансовой корпорации, вела образовательные вебинары по финансовой грамотности. Автор образовательных программ «Приди в себя, вернись нескоро», «Глубокое исцеление души», «Влажный кекс».</p>
+      <p>Опыт работы актрисой, моделью, ведущим экспертом YouTube-канала, ведущей вебинаров и стримов, обучалась у лучших телеведущих федеральных каналов — использую эти навыки, чтобы помогать женщинам звучать и проявляться без страха осуждения. В работе соединяю психотерапию, телесные практики и системы самопознания. Без шаблонов и книг. Работаю в потоке, индивидуальные рекомендации для каждого клиента.</p>
+    </div>
   </div>
 </section>
 
@@ -75,18 +82,18 @@
     <div class="section__head">
       <span class="eyebrow">Мой подход</span>
       <h2>Почему работа со мной даёт результат</h2>
-      <p>Не только разговорная терапия — комплексная работа с психикой, телом и сценариями отношений</p>
+      <p>Не только разговорная терапия — комплексная работа с психикой, эмоциями, телом, родовыми сценариями, поведенческими паттернами и ограничивающими ментальными убеждениями</p>
     </div>
     <div class="adv-grid">
       <div class="adv reveal">
         <div class="adv__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-8-4.35-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.65-8 11-8 11z"/></svg></div>
         <h3>Работа с телом и психикой</h3>
-        <p>Оргазмичность и телесная свобода начинаются не в постели, а в отношениях с собой — работаю с обоими уровнями сразу.</p>
+        <p>Оргазмичность и телесная свобода начинаются не в постели, а в отношениях с собой — работаю на всех уровнях, начиная с фундамента.</p>
       </div>
       <div class="adv reveal">
         <div class="adv__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
         <h3>Системы самопознания</h3>
-        <p>Использую разбор по системам самопознания, чтобы найти корень сценариев — не симптом, а причину.</p>
+        <p>Использую разбор по системам самопознания, чтобы отличить ваше истинное от навязанного. Разобраться в вашей настоящей природе.</p>
       </div>
       <div class="adv reveal">
         <div class="adv__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
@@ -96,7 +103,7 @@
       <div class="adv reveal">
         <div class="adv__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg></div>
         <h3>Опыт публичности</h3>
-        <p>Телеведущая и актриса, эксперт на Останкино — умею работать с темой видимости и права быть заметной.</p>
+        <p>Дипломированная телеведущая, актриса театра, модель, ведущая финансового канала — умею работать с темой видимости и права быть заметной.</p>
       </div>
       <div class="adv reveal">
         <div class="adv__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
@@ -141,8 +148,8 @@
         <span class="srv__meta">8 сессий</span>
       </div>
       <div class="srv reveal">
-        <div class="srv__top"><h3>«Путь проявленного мастера»</h3><span class="srv__price">По запросу</span></div>
-        <p>Групповое сопровождение на 3 месяца для тех, кто готов пройти путь от самовидения до влияния и монетизации своей проявленности.</p>
+        <div class="srv__top"><h3>«Путь проявленного мастера»</h3><span class="srv__price">от 118 000 ₽</span></div>
+        <p>Групповое сопровождение на 3 месяца для тех, кто готов пройти путь от самовидения до влияния и монетизации своей проявленности. Старт потока: 15 сентября — 15 декабря.</p>
         <span class="srv__meta">3 месяца, группа</span>
       </div>
     </div>
@@ -174,8 +181,8 @@
         <div class="price-row__val">99 545 ₽</div>
       </div>
       <div class="price-row">
-        <div class="price-row__name">«Путь проявленного мастера»<span class="price-row__desc">Групповое сопровождение, 3 месяца</span></div>
-        <div class="price-row__val">По запросу</div>
+        <div class="price-row__name">«Путь проявленного мастера»<span class="price-row__desc">Групповое сопровождение, 3 месяца · старт 15 сентября — 15 декабря</span></div>
+        <div class="price-row__val">от 118 000 ₽</div>
       </div>
     </div>
   </div>
@@ -257,7 +264,7 @@
       </details>
       <details class="faq__item">
         <summary>Что такое «Путь проявленного мастера»?</summary>
-        <p>Групповая программа на 3 месяца для тех, кто готов пройти путь от самовидения до влияния и монетизации своей проявленности. Стоимость и старт — по запросу, уточняйте у меня в Telegram.</p>
+        <p>Групповая программа на 3 месяца для тех, кто готов пройти путь от самовидения до влияния и монетизации своей проявленности. Старт потока: 15 сентября — 15 декабря, стоимость от 118 000 ₽.</p>
       </details>
     </div>
   </div>
