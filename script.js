@@ -85,7 +85,7 @@
   });
 
   const targets = document.querySelectorAll(
-    '.adv, .srv, .step, .object, .review, .contact-card, .faq__item, .form, .hero__card, .principle, .service'
+    '.adv, .srv, .step, .object, .review, .contact-card, .faq__item, .form, .hero__card, .principle, .service, .about__photo'
   );
   targets.forEach(el => el.classList.add('reveal'));
   const io = new IntersectionObserver(entries => {
